@@ -1,6 +1,6 @@
 
 
-object practice {
+object Mathematics {
    def main(args: Array[String]): Unit={
     println("Please enter thevalue of a:")
     val a=scala.io.StdIn.readDouble()
