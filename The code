@@ -1,0 +1,49 @@
+
+
+object practice {
+   def main(args: Array[String]): Unit={
+    println("Please enter thevalue of a:")
+    val a=scala.io.StdIn.readDouble()
+    println("Please enter the value of b:")
+    val b=scala.io.StdIn.readDouble()
+    println("Enter 1 for addition ")
+    println("Enter 2 for substraction ")
+    println("Enter 3 for multiplication ")
+    println("Enter 4 for division ");
+    println("Enter 5 for e power of a ");
+    println("Enter 6 for square root of a ");
+    println("Enter 7 for cube root of a ");
+    println("Choose the option:    ");
+     val c=scala.io.StdIn.readDouble();
+    if(c==1){
+      println(s"The addition is,${a+b}");
+    }
+    else if(c==2){
+      println(s"The substraction is,${a-b}");
+     }
+     else if(c==3)
+    {
+      println(s"The multiplication is,${a*b}");
+    }
+     else if(c==4)
+     {
+       println(s"The division is,${a/b}");
+     }
+     else if(c==5)
+     {
+       println("The e to power a is " +math.exp(a));
+     }
+     else if(c==6)
+     {
+       println("The square root of a is " +math.pow(a,0.5));
+     }
+     else if(c==7)
+     {
+       println("The cube root of a is " +math.pow(a,0.3333333333333333333));
+     }
+     else
+     {
+       println("This option cant be executed now");
+     }
+    }  
+    }
